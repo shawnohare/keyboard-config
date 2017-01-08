@@ -7,7 +7,7 @@ with `CONTROL` to make text editing with Vim and Emacs more enjoyable.
 
 ![Layout](layout.png)
 
-To flash a new keyboard:
+To flash a keyboard:
 
 1. Obtain the USB flashing utility: `brew install dfu-util`
 1. Insert slim object into small hole on the back of the keyboard.  The
