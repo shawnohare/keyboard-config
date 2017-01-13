@@ -1,4 +1,4 @@
-# Whitefox (Vanilla) Layout for macOS
+# WhiteFox (Vanilla) Layout for macOS
 
 A layout for the [WhiteFox](https://input.club/whitefox/) (Vanilla v1.1) 
 keyboard that moves a few keys to feel more like a standard Mac keyboard.  
