@@ -1,6 +1,6 @@
-# Whitefox (VanillaBlank) Layout for macOS
+# Whitefox (Vanilla) Layout for macOS
 
-A layout for the [WhiteFox](https://input.club/whitefox/) (VanillaBlank v1.1) 
+A layout for the [WhiteFox](https://input.club/whitefox/) (Vanilla v1.1) 
 keyboard that moves a few keys to feel more like a standard Mac keyboard.  
 This includes the left and right special key arrays.  Additionally, `CAPSLOCK` is replaced
 with `CONTROL` to make text editing with Vim and Emacs more enjoyable.
