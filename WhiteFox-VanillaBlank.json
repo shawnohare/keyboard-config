@@ -470,6 +470,10 @@
                 "0": {
                     "key": "LCTRL",
                     "label": "LCTRL"
+                },
+                "1": {
+                    "key": "CAPSLOCK",
+                    "label": "CAPSLK"
                 }
             }
         },

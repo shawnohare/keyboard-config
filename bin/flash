@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Flash firmware on WhiteFox keyboard.
+dfu-util -D kiibohd.dfu.bin
