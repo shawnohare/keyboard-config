@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Assumes dfu-util has been installed.
+
+if [[ -z $1  ]]; then
+    echo "Usage: flash dir where dir is a relative path to a layout directory."
+fi
+
+dfu-util --download $1/kiibohd.dfu.bin
+
+

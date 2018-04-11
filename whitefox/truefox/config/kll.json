@@ -58,7 +58,7 @@
             ],
             "args_count": 6,
             "features": "CapabilityFeature_None",
-            "index": 19,
+            "index": 20,
             "name": "Pixel_Animation_capability"
         },
         "animationIndex": {
@@ -70,7 +70,7 @@
             ],
             "args_count": 1,
             "features": "CapabilityFeature_None",
-            "index": 18,
+            "index": 19,
             "name": "Pixel_AnimationIndex_capability"
         },
         "animation_control": {
@@ -82,7 +82,7 @@
             ],
             "args_count": 1,
             "features": "CapabilityFeature_None",
-            "index": 17,
+            "index": 18,
             "name": "Pixel_AnimationControl_capability"
         },
         "consCtrlOut": {
@@ -215,8 +215,24 @@
             ],
             "args_count": 3,
             "features": "CapabilityFeature_Safe",
-            "index": 16,
+            "index": 17,
             "name": "Output_usbMouse_capability"
+        },
+        "mouseWheelOut": {
+            "args": [
+                {
+                    "name": "vertWheel",
+                    "width": 1
+                },
+                {
+                    "name": "horiWheel",
+                    "width": 1
+                }
+            ],
+            "args_count": 2,
+            "features": "CapabilityFeature_None",
+            "index": 16,
+            "name": "Output_usbMouseWheel_capability"
         },
         "noneOut": {
             "args": [],
@@ -229,7 +245,7 @@
             "args": [],
             "args_count": 0,
             "features": "CapabilityFeature_None",
-            "index": 20,
+            "index": 21,
             "name": "Pixel_Pixel_capability"
         },
         "sysCtrlOut": {
@@ -469,7 +485,7 @@
         },
         "latencyResources": {
             "name": "LatencyMeasurementCount_define",
-            "value": "8"
+            "value": "10"
         },
         "secureBootloaderEnabled": {
             "name": "SecureBootloader_define",
@@ -742,12 +758,12 @@
                 ]
             },
             ":0 S014": {
-                "kll": "S0x00e : U0x031;",
+                "kll": "S0x00e : U0x02a;",
                 "result": [
                     [
                         {
                             "type": "USBCode",
-                            "uid": 49
+                            "uid": 42
                         }
                     ]
                 ],
@@ -761,12 +777,12 @@
                 ]
             },
             ":0 S015": {
-                "kll": "S0x00f : U0x029;",
+                "kll": "S0x00f : U0x039;",
                 "result": [
                     [
                         {
                             "type": "USBCode",
-                            "uid": 41
+                            "uid": 57
                         }
                     ]
                 ],
@@ -1052,12 +1068,12 @@
                 ]
             },
             ":0 S030": {
-                "kll": "S0x01e : U0x02a;",
+                "kll": "S0x01e : U0x031;",
                 "result": [
                     [
                         {
                             "type": "USBCode",
-                            "uid": 42
+                            "uid": 49
                         }
                     ]
                 ],
@@ -2043,6 +2059,26 @@
                         {
                             "type": "ScanCode",
                             "uid": 13
+                        }
+                    ]
+                ]
+            },
+            ":0 S016": {
+                "kll": "S0x010 : flashMode();",
+                "result": [
+                    [
+                        {
+                            "args": [],
+                            "name": "flashMode",
+                            "type": "Capability"
+                        }
+                    ]
+                ],
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 16
                         }
                     ]
                 ]
